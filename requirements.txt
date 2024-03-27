@@ -1,0 +1,12 @@
+# ------------------------- googlesearch dependencies -------------------------
+pyuseragents==1.0.5
+beautifulsoup4==4.12.3
+# beautifulsoup4 dependencies
+soupsieve==2.5
+
+requests==2.31.0
+# requests dependencies
+certifi==2024.2.2
+urllib3==2.2.1
+idna==3.6
+charset-normalizer==3.3.2
