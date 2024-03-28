@@ -1,5 +1,7 @@
+import pprint
 import re
 from googlesearch.googlesearch import Search
+
 
 def preprocess_text(text):
     # Convert text to lowercase
@@ -9,9 +11,11 @@ def preprocess_text(text):
     return text
 
 
-query = "panadol used for"
+query = "brofine medicine used for"
 result = Search(query=query, language="en", number_of_results=10, retry_count=2,
-                             parser="html.parser").as_dict()
+                parser="html.parser").as_dict()
+
+pprint.pprint(result)
 
 results = result.get("results", [])
 

@@ -1,4 +1,4 @@
-# ------------------------- googlesearch dependencies -------------------------
+# ------------------------- googlesearch req&bs4 dependencies -------------------------
 pyuseragents==1.0.5
 beautifulsoup4==4.12.3
 # beautifulsoup4 dependencies
